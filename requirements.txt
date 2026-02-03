@@ -13,4 +13,4 @@ joblib
 types-pyYAML
 Flask
 Flask-Cors
-
+psycopg2

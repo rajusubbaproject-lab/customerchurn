@@ -1,0 +1,18 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_type: postgres
+
+  postgres:
+    host: localhost
+    port: 5432
+    database: BankCustomer
+    user: rajusubba
+    password_env: null
+    schema: public
+    table: bank_customers
+
+  export:
+    enabled: true
+    output_file: artifacts/data_ingestion/raw_snapshot.csv

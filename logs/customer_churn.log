@@ -1,1 +1,181 @@
 [2026-02-02 12:43:12,901: INFO: main: Starting the Customer Churn Prediction Application]
+[2026-02-03 12:24:37,674: ERROR: 1742732816: Data ingestion failed.]
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_9067/1742732816.py", line 2, in <module>
+    config_manager = ConfigurationManager()
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_9067/2141875193.py", line 6, in __init__
+    self.config = self.read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'read_yaml'
+[2026-02-03 12:31:48,133: ERROR: 1742732816: Data ingestion failed.]
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_9067/1742732816.py", line 2, in <module>
+    config_manager = ConfigurationManager()
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_9067/488977393.py", line 7, in __init__
+    self.config = self.read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'read_yaml'
+[2026-02-03 12:31:50,015: ERROR: 1742732816: Data ingestion failed.]
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_9067/1742732816.py", line 2, in <module>
+    config_manager = ConfigurationManager()
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_9067/488977393.py", line 7, in __init__
+    self.config = self.read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'read_yaml'
+[2026-02-03 12:35:19,067: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-03 12:39:53,036: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-03 12:39:56,537: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-03 12:40:19,892: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-03 12:40:32,004: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-03 12:40:49,220: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-03 12:40:52,985: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-03 12:48:05,882: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-03 12:54:38,967: INFO: common: YAML file src/customerchurn/config/config.yaml loaded successfully.]
+[2026-02-03 12:54:38,968: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-03 12:54:38,969: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-03 12:54:38,970: INFO: common: Directory created at: artifacts]
+[2026-02-03 12:54:38,970: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-03 12:54:45,645: INFO: common: YAML file src/customerchurn/config/config.yaml loaded successfully.]
+[2026-02-03 12:54:45,647: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-03 12:54:45,647: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-03 12:54:45,648: INFO: common: Directory created at: artifacts]
+[2026-02-03 12:54:45,648: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-03 12:55:17,794: INFO: common: YAML file src/customerchurn/config/config.yaml loaded successfully.]
+[2026-02-03 12:55:17,796: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-03 12:55:17,798: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-03 12:55:17,799: INFO: common: Directory created at: artifacts]
+[2026-02-03 12:55:17,800: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-03 12:55:17,801: ERROR: 1742732816: Data ingestion failed.]
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_18361/1742732816.py", line 3, in <module>
+    data_ingestion_config = config_manager.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_18361/498759805.py", line 23, in get_data_ingestion_config
+    data_ingestion_config = DataIngestionConfig(
+                            ^^^^^^^^^^^^^^^^^^^^
+TypeError: DataIngestionConfig.__init__() got an unexpected keyword argument 'export_file'
+[2026-02-03 13:02:13,685: INFO: common: YAML file src/customerchurn/config/config.yaml loaded successfully.]
+[2026-02-03 13:02:13,687: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-03 13:02:13,687: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-03 13:02:13,687: INFO: common: Directory created at: artifacts]
+[2026-02-03 13:02:13,688: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-03 13:02:48,965: INFO: common: YAML file src/customerchurn/config/config.yaml loaded successfully.]
+[2026-02-03 13:02:48,967: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-03 13:02:48,968: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-03 13:02:48,969: INFO: common: Directory created at: artifacts]
+[2026-02-03 13:02:48,969: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-03 13:03:41,498: INFO: common: YAML file src/customerchurn/config/config.yaml loaded successfully.]
+[2026-02-03 13:03:41,500: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-03 13:03:41,501: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-03 13:03:41,501: INFO: common: Directory created at: artifacts]
+[2026-02-03 13:03:41,502: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-03 13:04:37,196: INFO: common: YAML file src/customerchurn/config/config.yaml loaded successfully.]
+[2026-02-03 13:04:37,197: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-03 13:04:37,198: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-03 13:04:37,199: INFO: common: Directory created at: artifacts]
+[2026-02-03 13:04:37,200: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-03 13:05:01,397: INFO: common: YAML file src/customerchurn/config/config.yaml loaded successfully.]
+[2026-02-03 13:05:01,399: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-03 13:05:01,400: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-03 13:05:01,400: INFO: common: Directory created at: artifacts]
+[2026-02-03 13:05:01,401: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-03 13:05:01,401: ERROR: 1742732816: Data ingestion failed.]
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_18705/1742732816.py", line 3, in <module>
+    data_ingestion_config = config_manager.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_18705/1954676917.py", line 37, in get_data_ingestion_config
+    export_files=export_files,
+                 ^^^^^^^^^^^^
+NameError: name 'export_files' is not defined
+[2026-02-03 13:07:31,516: INFO: common: YAML file src/customerchurn/config/config.yaml loaded successfully.]
+[2026-02-03 13:07:31,519: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-03 13:07:31,520: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-03 13:07:31,521: INFO: common: Directory created at: artifacts]
+[2026-02-03 13:07:31,522: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-03 13:07:31,522: ERROR: 1742732816: Data ingestion failed.]
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_18705/1742732816.py", line 3, in <module>
+    data_ingestion_config = config_manager.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_18705/1954676917.py", line 37, in get_data_ingestion_config
+    export_files=export_files,
+                 ^^^^^^^^^^^^
+NameError: name 'export_files' is not defined
+[2026-02-03 13:07:40,251: INFO: common: YAML file src/customerchurn/config/config.yaml loaded successfully.]
+[2026-02-03 13:07:40,252: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-03 13:07:40,252: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-03 13:07:40,253: INFO: common: Directory created at: artifacts]
+[2026-02-03 13:07:40,253: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-03 13:08:00,436: INFO: common: YAML file src/customerchurn/config/config.yaml loaded successfully.]
+[2026-02-03 13:08:00,437: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-03 13:08:00,438: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-03 13:08:00,438: INFO: common: Directory created at: artifacts]
+[2026-02-03 13:08:00,438: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-03 13:08:19,015: INFO: common: YAML file src/customerchurn/config/config.yaml loaded successfully.]
+[2026-02-03 13:08:19,017: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-03 13:08:19,018: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-03 13:08:19,019: INFO: common: Directory created at: artifacts]
+[2026-02-03 13:08:19,020: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-03 13:08:19,020: ERROR: 1742732816: Data ingestion failed.]
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_18705/1742732816.py", line 3, in <module>
+    data_ingestion_config = config_manager.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_18705/1954676917.py", line 37, in get_data_ingestion_config
+    export_files=export_files,
+                 ^^^^^^^^^^^^
+NameError: name 'export_files' is not defined
+[2026-02-03 13:09:39,435: INFO: common: YAML file src/customerchurn/config/config.yaml loaded successfully.]
+[2026-02-03 13:09:39,437: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-03 13:09:39,438: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-03 13:09:39,439: INFO: common: Directory created at: artifacts]
+[2026-02-03 13:09:39,440: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-03 13:09:40,938: INFO: 4280944749: Data ingested successfully with shape: (10000, 13)]
+[2026-02-03 13:09:40,939: INFO: 1742732816: Data ingestion completed successfully.]
+[2026-02-03 13:15:05,505: INFO: common: YAML file src/customerchurn/config/config.yaml loaded successfully.]
+[2026-02-03 13:15:05,507: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-03 13:15:05,508: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-03 13:15:05,508: INFO: common: Directory created at: artifacts]
+[2026-02-03 13:15:05,509: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-03 13:15:05,571: INFO: 4280944749: Data ingested successfully with shape: (10000, 13)]
+[2026-02-03 13:15:05,578: INFO: 2849919950: Data ingestion completed successfully.]
+[2026-02-03 13:26:03,829: INFO: common: YAML file src/customerchurn/config/config.yaml loaded successfully.]
+[2026-02-03 13:26:03,831: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-03 13:26:03,832: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-03 13:26:03,833: INFO: common: Directory created at: artifacts]
+[2026-02-03 13:26:03,834: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-03 13:26:03,895: INFO: 4280944749: Data ingested successfully with shape: (10000, 13)]
+[2026-02-03 13:26:03,897: INFO: 522963440: Data ingestion completed successfully.]
+[2026-02-03 13:30:28,592: INFO: common: YAML file src/customerchurn/config/config.yaml loaded successfully.]
+[2026-02-03 13:30:28,594: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-03 13:30:28,595: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-03 13:30:28,595: INFO: common: Directory created at: artifacts]
+[2026-02-03 13:30:28,595: ERROR: 522963440: Data ingestion failed.]
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_18705/522963440.py", line 3, in <module>
+    data_ingestion_config = config_manager.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_18705/433776312.py", line 14, in get_data_ingestion_config
+    print("config.export:", config.get("export"))
+                            ^^^^^^
+UnboundLocalError: cannot access local variable 'config' where it is not associated with a value
+[2026-02-03 13:31:42,312: INFO: common: YAML file src/customerchurn/config/config.yaml loaded successfully.]
+[2026-02-03 13:31:42,313: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-03 13:31:42,314: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-03 13:31:42,314: INFO: common: Directory created at: artifacts]
+[2026-02-03 13:31:42,315: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-03 13:31:42,407: INFO: 4280944749: Data ingested successfully with shape: (10000, 13)]
+[2026-02-03 13:31:42,411: INFO: 522963440: Data ingestion completed successfully.]
+[2026-02-03 13:36:05,671: INFO: common: YAML file src/customerchurn/config/config.yaml loaded successfully.]
+[2026-02-03 13:36:05,672: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-03 13:36:05,674: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-03 13:36:05,674: INFO: common: Directory created at: artifacts]
+[2026-02-03 13:36:05,675: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-03 13:36:05,731: INFO: 4280944749: Data ingested successfully with shape: (10000, 13)]
+[2026-02-03 13:36:05,760: INFO: 4280944749: Raw snapshot exported to artifacts/data_ingestion/raw_snapshot.csv]
+[2026-02-03 13:36:05,762: INFO: 522963440: Data ingestion completed successfully.]
