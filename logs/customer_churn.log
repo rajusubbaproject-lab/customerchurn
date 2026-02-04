@@ -44,3 +44,204 @@ x==========x]
 [2026-02-04 11:39:19,431: INFO: main: >>>>>> Stage Data Validation Stage completed <<<<<<
 
 x==========x]
+[2026-02-04 13:52:40,010: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-04 13:52:40,014: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-04 13:52:40,015: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-04 13:52:40,016: INFO: common: Directory created at: artifacts]
+[2026-02-04 13:52:40,040: ERROR: 1507294550: Cannot save file into a non-existent directory: 'artifacts/data_transformation']
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_81883/1507294550.py", line 5, in <module>
+    data_transformation.train_test_split()
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_81883/1796500354.py", line 8, in train_test_split
+    train_data.to_csv(os.path.join(self.config.root_dir, 'train.csv'), index=False)
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 3989, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/io/common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/io/common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'artifacts/data_transformation'
+[2026-02-04 13:53:00,265: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-04 13:53:00,267: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-04 13:53:00,268: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-04 13:53:00,268: INFO: common: Directory created at: artifacts]
+[2026-02-04 13:53:00,279: ERROR: 1507294550: Cannot save file into a non-existent directory: 'artifacts/data_transformation']
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_81883/1507294550.py", line 5, in <module>
+    data_transformation.train_test_split()
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_81883/1796500354.py", line 8, in train_test_split
+    train_data.to_csv(os.path.join(self.config.root_dir, 'train.csv'), index=False)
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 3989, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/io/common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/io/common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'artifacts/data_transformation'
+[2026-02-04 13:55:53,805: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-04 13:55:53,806: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-04 13:55:53,808: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-04 13:55:53,809: INFO: common: Directory created at: artifacts]
+[2026-02-04 13:55:53,822: ERROR: 1507294550: Cannot save file into a non-existent directory: 'artifacts/data_transformation']
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_81883/1507294550.py", line 5, in <module>
+    data_transformation.train_test_split()
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_81883/1796500354.py", line 8, in train_test_split
+    train_data.to_csv(os.path.join(self.config.root_dir, 'train.csv'), index=False)
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 3989, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/io/common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/io/common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'artifacts/data_transformation'
+[2026-02-04 13:55:55,067: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-04 13:55:55,068: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-04 13:55:55,072: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-04 13:55:55,073: INFO: common: Directory created at: artifacts]
+[2026-02-04 13:55:55,087: ERROR: 1507294550: Cannot save file into a non-existent directory: 'artifacts/data_transformation']
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_81883/1507294550.py", line 5, in <module>
+    data_transformation.train_test_split()
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_81883/1796500354.py", line 8, in train_test_split
+    train_data.to_csv(os.path.join(self.config.root_dir, 'train.csv'), index=False)
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 3989, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/io/common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/lib/python3.11/site-packages/pandas/io/common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'artifacts/data_transformation'
+[2026-02-04 14:06:40,296: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-04 14:06:40,299: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-04 14:06:40,302: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-04 14:06:40,303: INFO: common: Directory created at: artifacts]
+[2026-02-04 14:06:40,303: INFO: common: Directory created at: artifacts/data_transformation]
+[2026-02-04 14:06:40,354: INFO: 3392004103: Train and test data saved at artifacts/data_transformation]
+[2026-02-04 14:06:40,354: INFO: 3392004103: (8000, 13)]
+[2026-02-04 14:06:40,355: INFO: 3392004103: (2000, 13)]
+[2026-02-04 14:55:15,852: INFO: main: >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2026-02-04 14:55:15,854: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-04 14:55:15,855: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-04 14:55:15,856: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-04 14:55:15,856: INFO: common: Directory created at: artifacts]
+[2026-02-04 14:55:15,856: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-04 14:55:16,084: INFO: data_ingestion: Data ingested successfully with shape: (10000, 13)]
+[2026-02-04 14:55:16,109: INFO: data_ingestion: Raw snapshot exported to artifacts/data_ingestion/raw_snapshot.csv]
+[2026-02-04 14:55:16,114: INFO: data_ingestion_pipeline: Data ingestion completed successfully.]
+[2026-02-04 14:55:16,115: INFO: main: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2026-02-04 14:55:16,115: INFO: main: >>>>>> Stage Data Validation Stage started <<<<<<]
+[2026-02-04 14:55:16,116: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-04 14:55:16,117: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-04 14:55:16,118: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-04 14:55:16,118: INFO: common: Directory created at: artifacts]
+[2026-02-04 14:55:16,118: INFO: common: Directory created at: artifacts/data_validation]
+[2026-02-04 14:55:16,126: INFO: data_validation_pipeline: Data validation completed.]
+[2026-02-04 14:55:16,126: INFO: main: >>>>>> Stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-04 14:55:16,126: INFO: main: >>>>>> Stage Data Transformation Stage started <<<<<<]
+[2026-02-04 14:55:16,126: INFO: data_transformation_pipeline: Data validation failed. Data schema is not valid.]
+[2026-02-04 14:55:16,127: INFO: main: >>>>>> Stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-04 14:58:27,677: INFO: main: >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2026-02-04 14:58:27,678: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-04 14:58:27,679: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-04 14:58:27,680: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-04 14:58:27,680: INFO: common: Directory created at: artifacts]
+[2026-02-04 14:58:27,680: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-04 14:58:27,887: INFO: data_ingestion: Data ingested successfully with shape: (10000, 13)]
+[2026-02-04 14:58:27,913: INFO: data_ingestion: Raw snapshot exported to artifacts/data_ingestion/raw_snapshot.csv]
+[2026-02-04 14:58:27,918: INFO: data_ingestion_pipeline: Data ingestion completed successfully.]
+[2026-02-04 14:58:27,918: INFO: main: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2026-02-04 14:58:27,918: INFO: main: >>>>>> Stage Data Validation Stage started <<<<<<]
+[2026-02-04 14:58:27,919: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-04 14:58:27,919: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-04 14:58:27,920: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-04 14:58:27,920: INFO: common: Directory created at: artifacts]
+[2026-02-04 14:58:27,920: INFO: common: Directory created at: artifacts/data_validation]
+[2026-02-04 14:58:27,929: INFO: data_validation_pipeline: Data validation completed.]
+[2026-02-04 14:58:27,929: INFO: main: >>>>>> Stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-04 14:58:27,929: INFO: main: >>>>>> Stage Data Transformation Stage started <<<<<<]
+[2026-02-04 14:58:27,929: INFO: data_transformation_pipeline: Data validation failed. Data schema is not valid.]
+[2026-02-04 14:58:27,929: INFO: main: >>>>>> Stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-04 14:58:48,802: INFO: main: >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2026-02-04 14:58:48,803: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-04 14:58:48,805: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-04 14:58:48,806: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-04 14:58:48,806: INFO: common: Directory created at: artifacts]
+[2026-02-04 14:58:48,806: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-04 14:58:49,020: INFO: data_ingestion: Data ingested successfully with shape: (10000, 13)]
+[2026-02-04 14:58:49,063: INFO: data_ingestion: Raw snapshot exported to artifacts/data_ingestion/raw_snapshot.csv]
+[2026-02-04 14:58:49,078: INFO: data_ingestion_pipeline: Data ingestion completed successfully.]
+[2026-02-04 14:58:49,078: INFO: main: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2026-02-04 14:58:49,079: INFO: main: >>>>>> Stage Data Validation Stage started <<<<<<]
+[2026-02-04 14:58:49,080: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-04 14:58:49,080: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-04 14:58:49,081: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-04 14:58:49,081: INFO: common: Directory created at: artifacts]
+[2026-02-04 14:58:49,081: INFO: common: Directory created at: artifacts/data_validation]
+[2026-02-04 14:58:49,094: INFO: data_validation_pipeline: Data validation completed.]
+[2026-02-04 14:58:49,094: INFO: main: >>>>>> Stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-04 14:58:49,094: INFO: main: >>>>>> Stage Data Transformation Stage started <<<<<<]
+[2026-02-04 14:58:49,096: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-04 14:58:49,096: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-04 14:58:49,097: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-04 14:58:49,097: INFO: common: Directory created at: artifacts]
+[2026-02-04 14:58:49,097: INFO: common: Directory created at: artifacts/data_transformation]
+[2026-02-04 14:58:49,130: INFO: data_transformation: Train and test data saved at artifacts/data_transformation]
+[2026-02-04 14:58:49,130: INFO: data_transformation: (8000, 13)]
+[2026-02-04 14:58:49,130: INFO: data_transformation: (2000, 13)]
+[2026-02-04 14:58:49,130: INFO: data_transformation_pipeline: Data transformation completed.]
+[2026-02-04 14:58:49,130: INFO: main: >>>>>> Stage Data Transformation Stage completed <<<<<<
+
+x==========x]
