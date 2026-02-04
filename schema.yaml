@@ -1,1 +1,17 @@
-key: value
+COLUMNS:
+  customerid: int
+  surname: object
+  creditscore: int
+  geography: object
+  gender: object
+  age: int
+  tenure: int
+  balance: float
+  numofproducts: int
+  hascrcard: int
+  isactivemember: int
+  estimatedsalary: float
+  exited: int
+
+TARGET_COLUMN: 
+  name: exited
