@@ -1,4 +1,4 @@
-COLUMNS:
+columns:
   customerid: int
   surname: object
   creditscore: int
@@ -13,5 +13,4 @@ COLUMNS:
   estimatedsalary: float
   exited: int
 
-TARGET_COLUMN: 
-  name: exited
+target_column: exited

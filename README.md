@@ -5,9 +5,10 @@
 
 1. Data Ingestion
 2. Data validation
-3. Data Transformation-- feature engineering, data processing
-4. Model Trainer
-5. Model Evaluation
+3. Data Transformation
+4. Data Processing
+5. Model Trainer
+6. Model Evaluation
 
 ## Workflow
 1. Update config.yaml

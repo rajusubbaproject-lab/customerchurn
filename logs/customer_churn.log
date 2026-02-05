@@ -245,3 +245,666 @@ x==========x]
 [2026-02-04 14:58:49,130: INFO: main: >>>>>> Stage Data Transformation Stage completed <<<<<<
 
 x==========x]
+[2026-02-05 08:34:57,505: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 08:34:57,511: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 08:34:57,513: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 08:34:57,514: INFO: common: Directory created at: artifacts]
+[2026-02-05 08:34:57,515: ERROR: 1727470660: Error during model training: "'ConfigBox' object has no attribute 'model_name'"]
+[2026-02-05 08:40:26,965: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 08:40:26,969: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 08:40:26,971: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 08:40:26,972: INFO: common: Directory created at: artifacts]
+[2026-02-05 08:40:26,972: ERROR: 1727470660: Error during model training: "'ConfigBox' object has no attribute 'model_name'"]
+[2026-02-05 08:40:28,331: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 08:40:28,335: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 08:40:28,338: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 08:40:28,340: INFO: common: Directory created at: artifacts]
+[2026-02-05 08:40:28,341: ERROR: 1727470660: Error during model training: "'ConfigBox' object has no attribute 'model_name'"]
+[2026-02-05 08:41:19,463: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 08:41:19,464: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 08:41:19,466: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 08:41:19,466: INFO: common: Directory created at: artifacts]
+[2026-02-05 08:41:19,467: ERROR: 1727470660: Error during model training: "'ConfigBox' object has no attribute 'model_name'"]
+[2026-02-05 08:43:53,407: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 08:43:53,409: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 08:43:53,411: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 08:43:53,412: INFO: common: Directory created at: artifacts]
+[2026-02-05 08:43:53,412: INFO: common: Directory created at: artifacts/model_trainer]
+[2026-02-05 08:43:53,413: ERROR: 1727470660: Error during model training: "'ConfigBox' object has no attribute 'model_name'"]
+[2026-02-05 08:46:50,104: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 08:46:50,106: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 08:46:50,107: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 08:46:50,107: INFO: common: Directory created at: artifacts]
+[2026-02-05 08:46:50,108: INFO: common: Directory created at: artifacts/data_transformation]
+[2026-02-05 08:46:50,147: INFO: 3392004103: Train and test data saved at artifacts/data_transformation]
+[2026-02-05 08:46:50,148: INFO: 3392004103: (8000, 13)]
+[2026-02-05 08:46:50,148: INFO: 3392004103: (2000, 13)]
+[2026-02-05 08:47:26,075: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 08:47:26,078: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 08:47:26,080: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 08:47:26,081: INFO: common: Directory created at: artifacts]
+[2026-02-05 08:47:26,081: INFO: common: Directory created at: artifacts/data_transformation]
+[2026-02-05 08:47:26,123: INFO: 3392004103: Train and test data saved at artifacts/data_transformation]
+[2026-02-05 08:47:26,124: INFO: 3392004103: (8000, 13)]
+[2026-02-05 08:47:26,124: INFO: 3392004103: (2000, 13)]
+[2026-02-05 08:48:51,014: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 08:48:51,016: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 08:48:51,017: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 08:48:51,017: INFO: common: Directory created at: artifacts]
+[2026-02-05 08:48:51,018: INFO: common: Directory created at: artifacts/model_trainer]
+[2026-02-05 08:48:51,040: ERROR: 1727470660: Error during model training: could not convert string to float: 'Cocci']
+[2026-02-05 08:51:10,443: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 08:51:10,445: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 08:51:10,447: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 08:51:10,447: INFO: common: Directory created at: artifacts]
+[2026-02-05 08:51:10,448: INFO: common: Directory created at: artifacts/model_trainer]
+[2026-02-05 08:51:10,462: ERROR: 1266605626: Error during model training: could not convert string to float: 'Cocci']
+[2026-02-05 08:51:11,496: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 08:51:11,498: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 08:51:11,500: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 08:51:11,501: INFO: common: Directory created at: artifacts]
+[2026-02-05 08:51:11,502: INFO: common: Directory created at: artifacts/model_trainer]
+[2026-02-05 08:51:11,518: ERROR: 1266605626: Error during model training: could not convert string to float: 'Cocci']
+[2026-02-05 10:19:46,689: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 10:19:46,693: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 10:19:46,694: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 10:19:46,695: INFO: common: Directory created at: artifacts]
+[2026-02-05 10:19:46,696: INFO: common: Directory created at: artifacts/data_preprocessing]
+[2026-02-05 10:19:46,696: INFO: 3482428615: Loading data from artifacts/data_transformation/train.csv]
+[2026-02-05 10:19:46,745: INFO: 3482428615: Loading data from artifacts/data_transformation/test.csv]
+[2026-02-05 10:19:46,754: INFO: 3482428615: Starting data preprocessing]
+[2026-02-05 10:19:46,756: ERROR: 2218762148: Error in data preprocessing: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse']
+[2026-02-05 10:22:20,810: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 10:22:20,812: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 10:22:20,815: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 10:22:20,816: INFO: common: Directory created at: artifacts]
+[2026-02-05 10:22:20,818: INFO: common: Directory created at: artifacts/data_preprocessing]
+[2026-02-05 10:22:20,818: INFO: 3115430244: Loading data from artifacts/data_transformation/train.csv]
+[2026-02-05 10:22:20,833: INFO: 3115430244: Loading data from artifacts/data_transformation/test.csv]
+[2026-02-05 10:22:20,836: INFO: 3115430244: Starting data preprocessing]
+[2026-02-05 10:22:20,974: INFO: 3115430244: Data preprocessing completed]
+[2026-02-05 10:22:20,974: INFO: 3115430244: Starting data preprocessing]
+[2026-02-05 10:22:20,987: INFO: 3115430244: Data preprocessing completed]
+[2026-02-05 10:22:27,682: INFO: 2218762148: Processed data saved successfully]
+[2026-02-05 10:25:14,187: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 10:25:14,188: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 10:25:14,190: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 10:25:14,191: INFO: common: Directory created at: artifacts]
+[2026-02-05 10:25:14,191: INFO: common: Directory created at: artifacts/model_trainer]
+[2026-02-05 10:25:15,264: INFO: 1266605626: Model training completed successfully.]
+[2026-02-05 10:25:50,766: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 10:25:50,769: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 10:25:50,772: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 10:25:50,772: INFO: common: Directory created at: artifacts]
+[2026-02-05 10:25:50,773: INFO: common: Directory created at: artifacts/model_trainer]
+[2026-02-05 10:25:51,741: INFO: 1266605626: Model training completed successfully.]
+[2026-02-05 11:20:18,185: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:20:18,188: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:20:18,190: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:20:18,191: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:20:18,191: ERROR: 297695721: 'ConfigurationManager' object has no attribute 'get_data_preprocessor_config']
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_42281/297695721.py", line 3, in <module>
+    data_preprocessor_config = config_manager.get_data_preprocessor_config()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_preprocessor_config'
+[2026-02-05 11:20:20,992: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:20:20,996: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:20:20,998: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:20:20,999: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:20:21,000: ERROR: 297695721: 'ConfigurationManager' object has no attribute 'get_data_preprocessor_config']
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_42281/297695721.py", line 3, in <module>
+    data_preprocessor_config = config_manager.get_data_preprocessor_config()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_preprocessor_config'
+[2026-02-05 11:21:06,384: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:21:06,391: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:21:06,394: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:21:06,395: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:21:06,397: INFO: common: Directory created at: artifacts/data_preprocessing]
+[2026-02-05 11:21:06,398: ERROR: 2677771294: 'DataPreprocessor' object has no attribute 'run_data_preprocessing']
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_42281/2677771294.py", line 5, in <module>
+    data_preprocessor.run_data_preprocessing()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataPreprocessor' object has no attribute 'run_data_preprocessing'
+[2026-02-05 11:21:45,950: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:21:45,953: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:21:45,955: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:21:45,956: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:21:45,957: INFO: common: Directory created at: artifacts/data_preprocessing]
+[2026-02-05 11:21:45,957: ERROR: 835956226: DataPreprocessor.preprocess_data() missing 1 required positional argument: 'df']
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_42281/835956226.py", line 5, in <module>
+    data_preprocessor.preprocess_data()
+TypeError: DataPreprocessor.preprocess_data() missing 1 required positional argument: 'df'
+[2026-02-05 11:26:31,440: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:26:31,443: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:26:31,445: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:26:31,446: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:26:31,446: INFO: common: Directory created at: artifacts/data_preprocessing]
+[2026-02-05 11:26:31,447: INFO: 184846966: Loading data from artifacts/data_transformation/train.csv]
+[2026-02-05 11:26:31,471: INFO: 184846966: Loading data from artifacts/data_transformation/test.csv]
+[2026-02-05 11:26:31,474: ERROR: 835956226: 'DataPreprocessingConfig' object has no attribute 'target_column']
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_42281/835956226.py", line 5, in <module>
+    data_preprocessor.preprocess_data()
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_42281/184846966.py", line 63, in preprocess_data
+    self.fit(train_df)
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_42281/184846966.py", line 15, in fit
+    X = df.drop(columns=[self.config.target_column])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataPreprocessingConfig' object has no attribute 'target_column'
+[2026-02-05 11:27:46,028: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:27:46,030: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:27:46,031: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:27:46,032: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:27:46,032: INFO: common: Directory created at: artifacts/data_preprocessing]
+[2026-02-05 11:27:46,032: INFO: 184846966: Loading data from artifacts/data_transformation/train.csv]
+[2026-02-05 11:27:46,040: INFO: 184846966: Loading data from artifacts/data_transformation/test.csv]
+[2026-02-05 11:27:46,044: ERROR: 835956226: 'DataPreprocessingConfig' object has no attribute 'target_column']
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_42281/835956226.py", line 5, in <module>
+    data_preprocessor.preprocess_data()
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_42281/184846966.py", line 63, in preprocess_data
+    self.fit(train_df)
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_42281/184846966.py", line 15, in fit
+    X = df.drop(columns=[self.config.target_column])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataPreprocessingConfig' object has no attribute 'target_column'
+[2026-02-05 11:29:45,435: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:29:45,436: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:29:45,438: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:29:45,438: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:29:45,439: INFO: common: Directory created at: artifacts/data_preprocessing]
+[2026-02-05 11:29:45,439: ERROR: 835956226: DataPreprocessingConfig.__init__() missing 1 required positional argument: 'target_column']
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_42281/835956226.py", line 3, in <module>
+    data_preprocessor_config = config_manager.get_data_preprocessing_config()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_42281/4199591312.py", line 19, in get_data_preprocessing_config
+    data_preprocessing_config = DataPreprocessingConfig(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataPreprocessingConfig.__init__() missing 1 required positional argument: 'target_column'
+[2026-02-05 11:33:01,566: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:33:01,567: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:33:01,568: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:33:01,569: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:33:01,569: INFO: common: Directory created at: artifacts/data_preprocessing]
+[2026-02-05 11:33:01,570: ERROR: 835956226: "'ConfigBox' object has no attribute 'target_column'"]
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'target_column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'target_column'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'target_column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'target_column'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'target_column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'target_column'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'target_column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_42281/835956226.py", line 3, in <module>
+    data_preprocessor_config = config_manager.get_data_preprocessing_config()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_42281/2659727067.py", line 21, in get_data_preprocessing_config
+    target_column=self.schema.target_column,  # ✅ THIS FIXES YOUR ERROR
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'target_column'"
+[2026-02-05 11:34:34,930: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:34:34,931: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:34:34,933: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:34:34,934: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:34:34,934: INFO: common: Directory created at: artifacts/data_preprocessing]
+[2026-02-05 11:34:34,936: INFO: 184846966: Loading data from artifacts/data_transformation/train.csv]
+[2026-02-05 11:34:34,949: INFO: 184846966: Loading data from artifacts/data_transformation/test.csv]
+[2026-02-05 11:34:34,966: INFO: 184846966: Preprocessor fitted on training data]
+[2026-02-05 11:34:42,843: ERROR: 835956226: name 'joblib' is not defined]
+Traceback (most recent call last):
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_42281/835956226.py", line 5, in <module>
+    data_preprocessor.preprocess_data()
+  File "/var/folders/6n/qbk1304d7p3fppsg4n9dxvvh0000gn/T/ipykernel_42281/184846966.py", line 83, in preprocess_data
+    joblib.dump(bundle, self.config.preprocessor_object_path)
+    ^^^^^^
+NameError: name 'joblib' is not defined
+[2026-02-05 11:35:32,043: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:35:32,045: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:35:32,047: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:35:32,048: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:35:32,049: INFO: common: Directory created at: artifacts/data_preprocessing]
+[2026-02-05 11:35:32,049: INFO: 184846966: Loading data from artifacts/data_transformation/train.csv]
+[2026-02-05 11:35:32,061: INFO: 184846966: Loading data from artifacts/data_transformation/test.csv]
+[2026-02-05 11:35:32,071: INFO: 184846966: Preprocessor fitted on training data]
+[2026-02-05 11:35:39,215: INFO: 184846966: Saved processed train to: artifacts/data_preprocessing/train_processed.csv]
+[2026-02-05 11:35:39,216: INFO: 184846966: Saved processed test to: artifacts/data_preprocessing/test_processed.csv]
+[2026-02-05 11:35:39,216: INFO: 184846966: Saved preprocessor bundle to: artifacts/data_preprocessing/preprocessor.pkl]
+[2026-02-05 11:46:23,018: INFO: main: >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2026-02-05 11:46:23,020: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:46:23,021: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:46:23,021: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:46:23,021: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:46:23,022: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-05 11:46:23,375: INFO: data_ingestion: Data ingested successfully with shape: (10000, 13)]
+[2026-02-05 11:46:23,400: INFO: data_ingestion: Raw snapshot exported to artifacts/data_ingestion/raw_snapshot.csv]
+[2026-02-05 11:46:23,405: INFO: data_ingestion_pipeline: Data ingestion completed successfully.]
+[2026-02-05 11:46:23,405: INFO: main: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 11:46:23,405: INFO: main: >>>>>> Stage Data Validation Stage started <<<<<<]
+[2026-02-05 11:46:23,407: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:46:23,407: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:46:23,407: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:46:23,407: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:46:23,408: INFO: common: Directory created at: artifacts/data_validation]
+[2026-02-05 11:46:23,415: INFO: data_validation_pipeline: Data validation completed.]
+[2026-02-05 11:46:23,415: INFO: main: >>>>>> Stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 11:46:23,415: INFO: main: >>>>>> Stage Data Transformation Stage started <<<<<<]
+[2026-02-05 11:46:23,417: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:46:23,417: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:46:23,418: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:46:23,418: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:46:23,418: INFO: common: Directory created at: artifacts/data_transformation]
+[2026-02-05 11:46:23,450: INFO: data_transformation: Train and test data saved at artifacts/data_transformation]
+[2026-02-05 11:46:23,450: INFO: data_transformation: (8000, 13)]
+[2026-02-05 11:46:23,450: INFO: data_transformation: (2000, 13)]
+[2026-02-05 11:46:23,450: INFO: data_transformation_pipeline: Data transformation completed.]
+[2026-02-05 11:46:23,450: INFO: main: >>>>>> Stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 11:46:23,450: INFO: main: >>>>>> Stage Data Preprocessing Stage started <<<<<<]
+[2026-02-05 11:46:23,452: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:46:23,452: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:46:23,453: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:46:23,453: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:46:23,453: INFO: common: Directory created at: artifacts/data_preprocessing]
+[2026-02-05 11:46:23,453: ERROR: main: Error in stage Data Preprocessing Stage: DataPreprocessingConfig.__init__() missing 1 required positional argument: 'target_column']
+Traceback (most recent call last):
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/main.py", line 47, in <module>
+    data_preprocessing_pipeline.initiate_data_preprocessing()
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/src/customerchurn/pipelines/data_preprocessing_pipeline.py", line 14, in initiate_data_preprocessing
+    data_preprocessing_config = config_manager.get_data_preprocessing_config()
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/src/customerchurn/config/configuration.py", line 72, in get_data_preprocessing_config
+    data_preprocessing_config = DataPreprocessingConfig(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataPreprocessingConfig.__init__() missing 1 required positional argument: 'target_column'
+[2026-02-05 11:51:40,472: INFO: main: >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2026-02-05 11:51:40,477: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:51:40,477: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:51:40,478: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:51:40,478: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:51:40,478: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-05 11:51:40,698: INFO: data_ingestion: Data ingested successfully with shape: (10000, 13)]
+[2026-02-05 11:51:40,722: INFO: data_ingestion: Raw snapshot exported to artifacts/data_ingestion/raw_snapshot.csv]
+[2026-02-05 11:51:40,727: INFO: data_ingestion_pipeline: Data ingestion completed successfully.]
+[2026-02-05 11:51:40,727: INFO: main: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 11:51:40,727: INFO: main: >>>>>> Stage Data Validation Stage started <<<<<<]
+[2026-02-05 11:51:40,729: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:51:40,729: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:51:40,730: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:51:40,730: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:51:40,730: INFO: common: Directory created at: artifacts/data_validation]
+[2026-02-05 11:51:40,737: INFO: data_validation_pipeline: Data validation completed.]
+[2026-02-05 11:51:40,738: INFO: main: >>>>>> Stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 11:51:40,738: INFO: main: >>>>>> Stage Data Transformation Stage started <<<<<<]
+[2026-02-05 11:51:40,739: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:51:40,739: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:51:40,740: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:51:40,740: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:51:40,740: INFO: common: Directory created at: artifacts/data_transformation]
+[2026-02-05 11:51:40,770: INFO: data_transformation: Train and test data saved at artifacts/data_transformation]
+[2026-02-05 11:51:40,770: INFO: data_transformation: (8000, 13)]
+[2026-02-05 11:51:40,770: INFO: data_transformation: (2000, 13)]
+[2026-02-05 11:51:40,770: INFO: data_transformation_pipeline: Data transformation completed.]
+[2026-02-05 11:51:40,770: INFO: main: >>>>>> Stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 11:51:40,770: INFO: main: >>>>>> Stage Data Preprocessing Stage started <<<<<<]
+[2026-02-05 11:51:40,772: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:51:40,772: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:51:40,773: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:51:40,773: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:51:40,773: INFO: common: Directory created at: artifacts/data_preprocessing]
+[2026-02-05 11:51:40,773: ERROR: main: Error in stage Data Preprocessing Stage: 'str' object has no attribute 'name']
+Traceback (most recent call last):
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/main.py", line 47, in <module>
+    data_preprocessing_pipeline.initiate_data_preprocessing()
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/src/customerchurn/pipelines/data_preprocessing_pipeline.py", line 14, in initiate_data_preprocessing
+    data_preprocessing_config = config_manager.get_data_preprocessing_config()
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/src/customerchurn/config/configuration.py", line 79, in get_data_preprocessing_config
+    target_column = self.schema.TARGET_COLUMN.name
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'name'
+[2026-02-05 11:53:12,863: INFO: main: >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2026-02-05 11:53:12,865: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:53:12,865: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:53:12,866: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:53:12,866: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:53:12,866: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-05 11:53:13,074: INFO: data_ingestion: Data ingested successfully with shape: (10000, 13)]
+[2026-02-05 11:53:13,098: INFO: data_ingestion: Raw snapshot exported to artifacts/data_ingestion/raw_snapshot.csv]
+[2026-02-05 11:53:13,103: INFO: data_ingestion_pipeline: Data ingestion completed successfully.]
+[2026-02-05 11:53:13,103: INFO: main: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 11:53:13,103: INFO: main: >>>>>> Stage Data Validation Stage started <<<<<<]
+[2026-02-05 11:53:13,105: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:53:13,105: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:53:13,106: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:53:13,106: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:53:13,106: INFO: common: Directory created at: artifacts/data_validation]
+[2026-02-05 11:53:13,114: INFO: data_validation_pipeline: Data validation completed.]
+[2026-02-05 11:53:13,114: INFO: main: >>>>>> Stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 11:53:13,114: INFO: main: >>>>>> Stage Data Transformation Stage started <<<<<<]
+[2026-02-05 11:53:13,115: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:53:13,116: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:53:13,116: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:53:13,116: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:53:13,116: INFO: common: Directory created at: artifacts/data_transformation]
+[2026-02-05 11:53:13,147: INFO: data_transformation: Train and test data saved at artifacts/data_transformation]
+[2026-02-05 11:53:13,147: INFO: data_transformation: (8000, 13)]
+[2026-02-05 11:53:13,147: INFO: data_transformation: (2000, 13)]
+[2026-02-05 11:53:13,147: INFO: data_transformation_pipeline: Data transformation completed.]
+[2026-02-05 11:53:13,147: INFO: main: >>>>>> Stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 11:53:13,147: INFO: main: >>>>>> Stage Data Preprocessing Stage started <<<<<<]
+[2026-02-05 11:53:13,149: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:53:13,149: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:53:13,150: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:53:13,150: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:53:13,150: INFO: common: Directory created at: artifacts/data_preprocessing]
+[2026-02-05 11:53:13,150: INFO: data_preprocessing: Loading data from artifacts/data_transformation/train.csv]
+[2026-02-05 11:53:13,154: INFO: data_preprocessing: Loading data from artifacts/data_transformation/test.csv]
+[2026-02-05 11:53:13,160: INFO: data_preprocessing: Preprocessor fitted on training data]
+[2026-02-05 11:53:20,445: INFO: data_preprocessing: Saved processed train to: artifacts/data_preprocessing/train_processed.csv]
+[2026-02-05 11:53:20,446: INFO: data_preprocessing: Saved processed test to: artifacts/data_preprocessing/test_processed.csv]
+[2026-02-05 11:53:20,446: INFO: data_preprocessing: Saved preprocessor bundle to: artifacts/data_preprocessing/preprocessor.pkl]
+[2026-02-05 11:53:20,446: INFO: data_preprocessing_pipeline: Data preprocessing completed.]
+[2026-02-05 11:53:20,446: INFO: main: >>>>>> Stage Data Preprocessing Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 11:55:10,753: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:55:10,756: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:55:10,758: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:55:10,758: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:55:10,759: INFO: common: Directory created at: artifacts/model_trainer]
+[2026-02-05 11:55:10,759: ERROR: 1266605626: Error during model training: 'str' object has no attribute 'name']
+[2026-02-05 11:56:05,069: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:56:05,071: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:56:05,073: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:56:05,073: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:56:05,074: ERROR: 1266605626: Error during model training: "'ConfigBox' object has no attribute 'target_coulmn'"]
+[2026-02-05 11:57:39,818: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:57:39,820: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:57:39,822: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:57:39,823: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:57:39,824: INFO: common: Directory created at: artifacts/model_trainer]
+[2026-02-05 11:57:39,825: ERROR: 1266605626: Error during model training: 'str' object has no attribute 'name']
+[2026-02-05 11:58:07,169: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 11:58:07,170: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 11:58:07,172: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 11:58:07,173: INFO: common: Directory created at: artifacts]
+[2026-02-05 11:58:07,174: INFO: common: Directory created at: artifacts/model_trainer]
+[2026-02-05 11:58:07,174: ERROR: 1266605626: Error during model training: 'str' object has no attribute 'target_column']
+[2026-02-05 12:09:51,710: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 12:09:51,713: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 12:09:51,714: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 12:09:51,715: INFO: common: Directory created at: artifacts]
+[2026-02-05 12:09:51,715: INFO: common: Directory created at: artifacts/model_trainer]
+[2026-02-05 12:09:51,716: ERROR: 1266605626: Error during model training: 'str' object has no attribute 'name']
+[2026-02-05 12:10:00,587: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 12:10:00,589: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 12:10:00,590: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 12:10:00,591: INFO: common: Directory created at: artifacts]
+[2026-02-05 12:10:00,592: INFO: common: Directory created at: artifacts/model_trainer]
+[2026-02-05 12:10:00,593: ERROR: 1266605626: Error during model training: 'str' object has no attribute 'name']
+[2026-02-05 12:10:21,378: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 12:10:21,380: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 12:10:21,381: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 12:10:21,382: INFO: common: Directory created at: artifacts]
+[2026-02-05 12:10:21,382: INFO: common: Directory created at: artifacts/model_trainer]
+[2026-02-05 12:10:21,383: ERROR: 1266605626: Error during model training: 'str' object has no attribute 'name']
+[2026-02-05 12:10:23,820: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 12:10:23,822: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 12:10:23,824: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 12:10:23,825: INFO: common: Directory created at: artifacts]
+[2026-02-05 12:10:23,826: INFO: common: Directory created at: artifacts/model_trainer]
+[2026-02-05 12:10:23,826: ERROR: 1266605626: Error during model training: 'str' object has no attribute 'name']
+[2026-02-05 12:11:20,752: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 12:11:20,754: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 12:11:20,756: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 12:11:20,756: INFO: common: Directory created at: artifacts]
+[2026-02-05 12:11:20,757: INFO: common: Directory created at: artifacts/model_trainer]
+[2026-02-05 12:11:22,368: INFO: 2019259287: Saved model to: artifacts/model_trainer/model.joblib]
+[2026-02-05 12:11:22,369: INFO: 1266605626: Model training completed successfully.]
+[2026-02-05 12:18:49,918: INFO: main: >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2026-02-05 12:18:49,919: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 12:18:49,920: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 12:18:49,921: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 12:18:49,921: INFO: common: Directory created at: artifacts]
+[2026-02-05 12:18:49,921: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-05 12:18:50,148: INFO: data_ingestion: Data ingested successfully with shape: (10000, 13)]
+[2026-02-05 12:18:50,174: INFO: data_ingestion: Raw snapshot exported to artifacts/data_ingestion/raw_snapshot.csv]
+[2026-02-05 12:18:50,179: INFO: data_ingestion_pipeline: Data ingestion completed successfully.]
+[2026-02-05 12:18:50,179: INFO: main: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 12:18:50,179: INFO: main: >>>>>> Stage Data Validation Stage started <<<<<<]
+[2026-02-05 12:18:50,181: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 12:18:50,181: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 12:18:50,182: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 12:18:50,182: INFO: common: Directory created at: artifacts]
+[2026-02-05 12:18:50,182: INFO: common: Directory created at: artifacts/data_validation]
+[2026-02-05 12:18:50,190: INFO: data_validation_pipeline: Data validation completed.]
+[2026-02-05 12:18:50,190: INFO: main: >>>>>> Stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 12:18:50,190: INFO: main: >>>>>> Stage Data Transformation Stage started <<<<<<]
+[2026-02-05 12:18:50,192: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 12:18:50,192: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 12:18:50,193: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 12:18:50,193: INFO: common: Directory created at: artifacts]
+[2026-02-05 12:18:50,193: INFO: common: Directory created at: artifacts/data_transformation]
+[2026-02-05 12:18:50,224: INFO: data_transformation: Train and test data saved at artifacts/data_transformation]
+[2026-02-05 12:18:50,225: INFO: data_transformation: (8000, 13)]
+[2026-02-05 12:18:50,225: INFO: data_transformation: (2000, 13)]
+[2026-02-05 12:18:50,225: INFO: data_transformation_pipeline: Data transformation completed.]
+[2026-02-05 12:18:50,225: INFO: main: >>>>>> Stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 12:18:50,225: INFO: main: >>>>>> Stage Data Preprocessing Stage started <<<<<<]
+[2026-02-05 12:18:50,226: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 12:18:50,227: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 12:18:50,227: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 12:18:50,227: INFO: common: Directory created at: artifacts]
+[2026-02-05 12:18:50,228: INFO: common: Directory created at: artifacts/data_preprocessing]
+[2026-02-05 12:18:50,228: INFO: data_preprocessing: Loading data from artifacts/data_transformation/train.csv]
+[2026-02-05 12:18:50,232: INFO: data_preprocessing: Loading data from artifacts/data_transformation/test.csv]
+[2026-02-05 12:18:50,239: INFO: data_preprocessing: Preprocessor fitted on training data]
+[2026-02-05 12:18:57,642: INFO: data_preprocessing: Saved processed train to: artifacts/data_preprocessing/train_processed.csv]
+[2026-02-05 12:18:57,643: INFO: data_preprocessing: Saved processed test to: artifacts/data_preprocessing/test_processed.csv]
+[2026-02-05 12:18:57,643: INFO: data_preprocessing: Saved preprocessor bundle to: artifacts/data_preprocessing/preprocessor.pkl]
+[2026-02-05 12:18:57,643: INFO: data_preprocessing_pipeline: Data preprocessing completed.]
+[2026-02-05 12:18:57,643: INFO: main: >>>>>> Stage Data Preprocessing Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 12:18:57,643: INFO: main: >>>>>> Stage Model Trainer Stage started <<<<<<]
+[2026-02-05 12:18:57,645: ERROR: main: Error in stage Model Trainer Stage: No module named 'customerchurn']
+Traceback (most recent call last):
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/main.py", line 56, in <module>
+    from src.customerchurn.pipelines.training_pipeline import ModelTrainerPipeline
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/src/customerchurn/pipelines/training_pipeline.py", line 3, in <module>
+    from src.customerchurn.components.model_trainer import ModelTrainer
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/src/customerchurn/components/model_trainer.py", line 4, in <module>
+    from customerchurn.entity.config_entity import ModelTrainerConfig
+ModuleNotFoundError: No module named 'customerchurn'
+[2026-02-05 12:19:26,167: INFO: main: >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2026-02-05 12:19:26,169: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 12:19:26,170: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 12:19:26,170: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 12:19:26,170: INFO: common: Directory created at: artifacts]
+[2026-02-05 12:19:26,170: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-05 12:19:26,366: INFO: data_ingestion: Data ingested successfully with shape: (10000, 13)]
+[2026-02-05 12:19:26,389: INFO: data_ingestion: Raw snapshot exported to artifacts/data_ingestion/raw_snapshot.csv]
+[2026-02-05 12:19:26,394: INFO: data_ingestion_pipeline: Data ingestion completed successfully.]
+[2026-02-05 12:19:26,394: INFO: main: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 12:19:26,394: INFO: main: >>>>>> Stage Data Validation Stage started <<<<<<]
+[2026-02-05 12:19:26,396: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 12:19:26,396: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 12:19:26,397: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 12:19:26,397: INFO: common: Directory created at: artifacts]
+[2026-02-05 12:19:26,397: INFO: common: Directory created at: artifacts/data_validation]
+[2026-02-05 12:19:26,404: INFO: data_validation_pipeline: Data validation completed.]
+[2026-02-05 12:19:26,404: INFO: main: >>>>>> Stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 12:19:26,404: INFO: main: >>>>>> Stage Data Transformation Stage started <<<<<<]
+[2026-02-05 12:19:26,406: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 12:19:26,406: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 12:19:26,407: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 12:19:26,407: INFO: common: Directory created at: artifacts]
+[2026-02-05 12:19:26,407: INFO: common: Directory created at: artifacts/data_transformation]
+[2026-02-05 12:19:26,438: INFO: data_transformation: Train and test data saved at artifacts/data_transformation]
+[2026-02-05 12:19:26,438: INFO: data_transformation: (8000, 13)]
+[2026-02-05 12:19:26,438: INFO: data_transformation: (2000, 13)]
+[2026-02-05 12:19:26,438: INFO: data_transformation_pipeline: Data transformation completed.]
+[2026-02-05 12:19:26,438: INFO: main: >>>>>> Stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 12:19:26,438: INFO: main: >>>>>> Stage Data Preprocessing Stage started <<<<<<]
+[2026-02-05 12:19:26,439: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 12:19:26,440: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 12:19:26,440: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 12:19:26,440: INFO: common: Directory created at: artifacts]
+[2026-02-05 12:19:26,440: INFO: common: Directory created at: artifacts/data_preprocessing]
+[2026-02-05 12:19:26,441: INFO: data_preprocessing: Loading data from artifacts/data_transformation/train.csv]
+[2026-02-05 12:19:26,445: INFO: data_preprocessing: Loading data from artifacts/data_transformation/test.csv]
+[2026-02-05 12:19:26,451: INFO: data_preprocessing: Preprocessor fitted on training data]
+[2026-02-05 12:19:33,705: INFO: data_preprocessing: Saved processed train to: artifacts/data_preprocessing/train_processed.csv]
+[2026-02-05 12:19:33,706: INFO: data_preprocessing: Saved processed test to: artifacts/data_preprocessing/test_processed.csv]
+[2026-02-05 12:19:33,706: INFO: data_preprocessing: Saved preprocessor bundle to: artifacts/data_preprocessing/preprocessor.pkl]
+[2026-02-05 12:19:33,706: INFO: data_preprocessing_pipeline: Data preprocessing completed.]
+[2026-02-05 12:19:33,706: INFO: main: >>>>>> Stage Data Preprocessing Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 12:19:33,706: INFO: main: >>>>>> Stage Model Trainer Stage started <<<<<<]
+[2026-02-05 12:19:33,707: ERROR: main: Error in stage Model Trainer Stage: No module named 'customerchurn']
+Traceback (most recent call last):
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/main.py", line 56, in <module>
+    from src.customerchurn.pipelines.training_pipeline import ModelTrainerPipeline
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/src/customerchurn/pipelines/training_pipeline.py", line 3, in <module>
+    from src.customerchurn.components.model_trainer import ModelTrainer
+  File "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/src/customerchurn/components/model_trainer.py", line 4, in <module>
+    from customerchurn.entity.config_entity import ModelTrainerConfig
+ModuleNotFoundError: No module named 'customerchurn'
+[2026-02-05 12:20:49,843: INFO: main: >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2026-02-05 12:20:49,846: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 12:20:49,847: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 12:20:49,848: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 12:20:49,848: INFO: common: Directory created at: artifacts]
+[2026-02-05 12:20:49,848: INFO: common: Directory created at: artifacts/data_ingestion]
+[2026-02-05 12:20:50,055: INFO: data_ingestion: Data ingested successfully with shape: (10000, 13)]
+[2026-02-05 12:20:50,081: INFO: data_ingestion: Raw snapshot exported to artifacts/data_ingestion/raw_snapshot.csv]
+[2026-02-05 12:20:50,085: INFO: data_ingestion_pipeline: Data ingestion completed successfully.]
+[2026-02-05 12:20:50,086: INFO: main: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 12:20:50,086: INFO: main: >>>>>> Stage Data Validation Stage started <<<<<<]
+[2026-02-05 12:20:50,087: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 12:20:50,088: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 12:20:50,088: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 12:20:50,088: INFO: common: Directory created at: artifacts]
+[2026-02-05 12:20:50,088: INFO: common: Directory created at: artifacts/data_validation]
+[2026-02-05 12:20:50,096: INFO: data_validation_pipeline: Data validation completed.]
+[2026-02-05 12:20:50,096: INFO: main: >>>>>> Stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 12:20:50,096: INFO: main: >>>>>> Stage Data Transformation Stage started <<<<<<]
+[2026-02-05 12:20:50,098: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 12:20:50,098: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 12:20:50,099: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 12:20:50,099: INFO: common: Directory created at: artifacts]
+[2026-02-05 12:20:50,099: INFO: common: Directory created at: artifacts/data_transformation]
+[2026-02-05 12:20:50,130: INFO: data_transformation: Train and test data saved at artifacts/data_transformation]
+[2026-02-05 12:20:50,130: INFO: data_transformation: (8000, 13)]
+[2026-02-05 12:20:50,130: INFO: data_transformation: (2000, 13)]
+[2026-02-05 12:20:50,131: INFO: data_transformation_pipeline: Data transformation completed.]
+[2026-02-05 12:20:50,131: INFO: main: >>>>>> Stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 12:20:50,131: INFO: main: >>>>>> Stage Data Preprocessing Stage started <<<<<<]
+[2026-02-05 12:20:50,132: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 12:20:50,132: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 12:20:50,133: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 12:20:50,133: INFO: common: Directory created at: artifacts]
+[2026-02-05 12:20:50,133: INFO: common: Directory created at: artifacts/data_preprocessing]
+[2026-02-05 12:20:50,133: INFO: data_preprocessing: Loading data from artifacts/data_transformation/train.csv]
+[2026-02-05 12:20:50,138: INFO: data_preprocessing: Loading data from artifacts/data_transformation/test.csv]
+[2026-02-05 12:20:50,144: INFO: data_preprocessing: Preprocessor fitted on training data]
+[2026-02-05 12:20:57,429: INFO: data_preprocessing: Saved processed train to: artifacts/data_preprocessing/train_processed.csv]
+[2026-02-05 12:20:57,429: INFO: data_preprocessing: Saved processed test to: artifacts/data_preprocessing/test_processed.csv]
+[2026-02-05 12:20:57,429: INFO: data_preprocessing: Saved preprocessor bundle to: artifacts/data_preprocessing/preprocessor.pkl]
+[2026-02-05 12:20:57,429: INFO: data_preprocessing_pipeline: Data preprocessing completed.]
+[2026-02-05 12:20:57,430: INFO: main: >>>>>> Stage Data Preprocessing Stage completed <<<<<<
+
+x==========x]
+[2026-02-05 12:20:57,430: INFO: main: >>>>>> Stage Model Trainer Stage started <<<<<<]
+[2026-02-05 12:20:57,504: INFO: common: YAML file config/config.yaml loaded successfully.]
+[2026-02-05 12:20:57,504: INFO: common: YAML file params.yaml loaded successfully.]
+[2026-02-05 12:20:57,505: INFO: common: YAML file schema.yaml loaded successfully.]
+[2026-02-05 12:20:57,505: INFO: common: Directory created at: artifacts]
+[2026-02-05 12:20:57,505: INFO: common: Directory created at: artifacts/model_trainer]
+[2026-02-05 12:20:58,959: INFO: model_trainer: Saved model to: artifacts/model_trainer/model.joblib]
+[2026-02-05 12:20:58,959: INFO: training_pipeline: Model training completed.]
+[2026-02-05 12:20:58,959: INFO: main: >>>>>> Stage Model Trainer Stage completed <<<<<<
+
+x==========x]

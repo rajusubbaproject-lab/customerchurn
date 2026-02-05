@@ -1,7 +1,11 @@
 
 from src.customerchurn.constants import *
 from src.customerchurn.utils.common import read_yaml, create_directories
-from src.customerchurn.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig
+from src.customerchurn.entity.config_entity import (DataIngestionConfig, 
+                                                    DataValidationConfig, 
+                                                    DataTransformationConfig,
+                                                    DataPreprocessingConfig,
+                                                    ModelTrainerConfig)
 
 class ConfigurationManager:
     def __init__(self, 
@@ -60,6 +64,24 @@ class ConfigurationManager:
         )
         return data_validation_config
     
+    def get_data_preprocessing_config(self) -> DataPreprocessingConfig:
+        config = self.config.data_preprocessing
+        
+        root_dir = Path(config.root_dir)
+        create_directories([root_dir])
+        
+        data_preprocessing_config = DataPreprocessingConfig(
+            root_dir = root_dir,
+            train_data_path = Path(config.train_data_path),
+            test_data_path = Path(config.test_data_path),
+            preprocessor_object_path = Path(config.preprocessor_object_path),
+            processed_train_path = Path(config.processed_train_path),
+            processed_test_path = Path(config.processed_test_path),
+            target_column = self.schema.target_column
+        )
+        
+        return data_preprocessing_config
+    
     def get_data_transformation_config(self) -> DataTransformationConfig:
         config = self.config.data_transformation
         create_directories([config.root_dir])
@@ -68,6 +90,26 @@ class ConfigurationManager:
             data_path = config.data_path
         )
         return data_transformation_config
+    
+    def get_model_trainer_config(self) -> ModelTrainerConfig:
+        config = self.config.model_trainer
+        params = self.params.model_trainer
+
+        create_directories([config.root_dir])
+
+        lr_params = params.logistic_regression
+
+        return ModelTrainerConfig(
+            root_dir=Path(config.root_dir),
+            train_data_path=Path(config.train_data_path),
+            test_data_path=Path(config.test_data_path),
+            model_name=config.model_name,
+            target_column=self.schema.target_column,
+
+            model_type=params.model_type,
+            C=float(lr_params.C),
+            max_iter=int(lr_params.max_iter),
+    )
             
             
     
