@@ -1,0 +1,36 @@
+{
+  "os":  "macOS-26.2-arm64-arm-64bit",
+  "python":  "CPython 3.11.0",
+  "startedAt":  "2026-02-09T20:43:36.774989Z",
+  "program":  "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/main.py",
+  "codePath":  "main.py",
+  "codePathLocal":  "main.py",
+  "git":  {
+    "remote":  "git@github-rajulab:rajusubbaproject-lab/customerchurn.git",
+    "commit":  "e3031ff5e26700fa8c24e6f9eb81e89aad2a2f79"
+  },
+  "email":  "rajusubba.project@gmail.com",
+  "root":  "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project",
+  "host":  "MacBookPro.columbus.rr.com",
+  "executable":  "/Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/bin/python",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "424092626944"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "apple":  {
+    "name":  "Apple M1 Pro",
+    "ecpuCores":  2,
+    "pcpuCores":  6,
+    "gpuCores":  14,
+    "memoryGb":  16,
+    "ramTotalBytes":  "17179869184"
+  },
+  "writerId":  "ze23dwsfjjltndj5m9bvgwox58uv52y3"
+}

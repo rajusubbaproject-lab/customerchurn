@@ -5,7 +5,7 @@ from src.customerchurn.entity.config_entity import (DataIngestionConfig,
                                                     DataValidationConfig, 
                                                     DataTransformationConfig,
                                                     DataPreprocessingConfig,
-                                                    ModelTrainerConfig)
+                                                    ModelTrainerConfig, ModelEvaluationConfig)
 
 class ConfigurationManager:
     def __init__(self, 
@@ -111,5 +111,30 @@ class ConfigurationManager:
             max_iter=int(lr_params.max_iter),
     )
             
-            
+    def get_model_evaluation_config(self) -> ModelEvaluationConfig:
+        cfg = self.config.model_evaluation
+        params = self.params.model_evaluation  # or self.params.model_trainer if you prefer
+
+        create_directories([cfg.root_dir])
+
+        # schema.yaml has: target_column: exited
+        target_col = self.schema.target_column
+
+        # W&B config comes from config.yaml
+        wb = self.config.get("wandb", {})
+        
+        return ModelEvaluationConfig(
+            root_dir=Path(cfg.root_dir),
+            test_data_path=Path(cfg.test_data_path),
+            model_path=Path(cfg.model_path),
+            all_params=dict(params),
+            metric_file_name=Path(cfg.metric_file_name),
+            target_column=target_col,
+
+            wandb_enabled=bool(wb.get("enabled", True)),
+            wandb_project=wb.get("project", "customer-churn"),
+            wandb_entity=wb.get("entity"),            # can be None
+            wandb_job_type=wb.get("job_type", "evaluation"),
+            wandb_tags=wb.get("tags", ["churn", "classification"]),
+        )
     

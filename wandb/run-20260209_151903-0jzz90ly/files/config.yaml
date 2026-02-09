@@ -1,0 +1,82 @@
+_wandb:
+    value:
+        cli_version: 0.24.2
+        e:
+            almg8w7hi56302tm5b1ac8r2jqqsxcca:
+                codePath: /Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/research/06_model_evaluation.ipynb
+                codePathLocal: research/06_model_evaluation.ipynb
+                email: rajusubba.project@gmail.com
+                executable: /Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/bin/python
+                git:
+                    commit: e3031ff5e26700fa8c24e6f9eb81e89aad2a2f79
+                    remote: git@github-rajulab:rajusubbaproject-lab/customerchurn.git
+                host: MacBookPro.columbus.rr.com
+                os: macOS-26.2-arm64-arm-64bit
+                program: /Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/research/06_model_evaluation.ipynb
+                python: CPython 3.11.0
+                root: /Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project
+                startedAt: "2026-02-09T20:19:03.505861Z"
+                writerId: almg8w7hi56302tm5b1ac8r2jqqsxcca
+        m: []
+        python_version: 3.11.0
+        t:
+            "1":
+                - 5
+                - 53
+            "2":
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+                - 15
+                - 16
+            "4": 3.11.0
+            "5": 0.24.2
+            "8":
+                - 1
+            "10":
+                - 20
+            "12": 0.24.2
+            "13": darwin-arm64
+        visualize:
+            confusion_matrix:
+                panel_config:
+                    fieldSettings:
+                        Actual: Actual
+                        Predicted: Predicted
+                        nPredictions: nPredictions
+                    panelDefId: wandb/confusion_matrix/v1
+                    stringSettings:
+                        title: Confusion Matrix Curve
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: confusion_matrix_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+metrics:
+    value:
+        - accuracy
+        - precision
+        - recall
+        - f1
+        - roc_auc
+        - pr_auc
+threshold:
+    value: 0.5

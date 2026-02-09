@@ -1,0 +1,27 @@
+_wandb:
+    value:
+        cli_version: 0.24.2
+        e:
+            slo7nov3achbdu1vrp4ezg1xank2cmzw:
+                email: rajusubba.project@gmail.com
+                executable: /Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project/venv/bin/python
+                git:
+                    commit: e3031ff5e26700fa8c24e6f9eb81e89aad2a2f79
+                    remote: git@github-rajulab:rajusubbaproject-lab/customerchurn.git
+                host: MacBookPro.columbus.rr.com
+                os: macOS-26.2-arm64-arm-64bit
+                program: <stdin>
+                python: CPython 3.11.0
+                root: /Users/rajusubba/Documents/End-to-End MLOps/customer-churn-project
+                startedAt: "2026-02-09T19:50:45.565573Z"
+                writerId: slo7nov3achbdu1vrp4ezg1xank2cmzw
+        m: []
+        python_version: 3.11.0
+        t:
+            "3":
+                - 2
+                - 13
+            "4": 3.11.0
+            "5": 0.24.2
+            "12": 0.24.2
+            "13": darwin-arm64

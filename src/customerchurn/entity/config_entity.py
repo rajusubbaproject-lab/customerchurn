@@ -1,7 +1,8 @@
 
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Optional
+from typing import List, Optional
+from typing import Any, Dict, Optional, List
 @dataclass
 class DataIngestionConfig:
     """Configuration for data ingestion"""
@@ -60,3 +61,19 @@ class ModelTrainerConfig:
     model_type: str
     C: float
     max_iter: int
+    
+@dataclass
+class ModelEvaluationConfig:
+    root_dir: Path
+    test_data_path: Path
+    model_path: Path
+    all_params: Dict[str, Any]
+    metric_file_name: Path
+    target_column: str
+
+    # W&B
+    wandb_enabled: bool = True
+    wandb_project: str = "customer-churn"
+    wandb_entity: Optional[str] = None   # leave None to use default
+    wandb_job_type: str = "evaluation"
+    wandb_tags: Optional[List[str]] = None

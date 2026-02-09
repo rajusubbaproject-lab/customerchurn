@@ -5,6 +5,8 @@ from src.customerchurn.pipelines.data_ingestion_pipeline import DataIngestionPip
 from src.customerchurn.pipelines.data_validation_pipeline import DataValidationPipeline
 from src.customerchurn.pipelines.data_transformation_pipeline import DataTransformationPipeline
 from src.customerchurn.pipelines.data_preprocessing_pipeline import DataPreprocessingPipeline
+from src.customerchurn.pipelines.training_pipeline import ModelTrainerPipeline
+from src.customerchurn.pipelines.model_evaluation_pipeline import ModelEvaluationPipeline
 
 STAGE_NAME = "Data Ingestion Stage"
 
@@ -56,6 +58,17 @@ try:
     from src.customerchurn.pipelines.training_pipeline import ModelTrainerPipeline
     model_trainer_pipeline = ModelTrainerPipeline()
     model_trainer_pipeline.initiate_model_trainer()
+    logger.info(f">>>>>> Stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+    logger.exception(f"Error in stage {STAGE_NAME}: {e}")
+    raise e
+
+STAGE_NAME = "Model Evaluation Stage"
+try:
+    logger.info(f">>>>>> Stage {STAGE_NAME} started <<<<<<")
+    from src.customerchurn.pipelines.model_evaluation_pipeline import ModelEvaluationPipeline
+    model_evaluation_pipeline = ModelEvaluationPipeline()
+    model_evaluation_pipeline.initiate_model_evaluation()
     logger.info(f">>>>>> Stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
 except Exception as e:
     logger.exception(f"Error in stage {STAGE_NAME}: {e}")

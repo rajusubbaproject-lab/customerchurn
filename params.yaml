@@ -4,3 +4,14 @@ model_trainer:
     C: 1.0
     max_iter: 1000
   
+
+model_evaluation:
+  metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1
+    - roc_auc
+    - pr_auc
+
+  threshold: 0.5

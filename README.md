@@ -8,7 +8,7 @@
 3. Data Transformation
 4. Data Processing
 5. Model Trainer
-6. Model Evaluation
+6. Model Evaluation -uses MLflow and dagshub
 
 ## Workflow
 1. Update config.yaml
