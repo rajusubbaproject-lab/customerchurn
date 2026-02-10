@@ -64,6 +64,30 @@ class DataPreprocessor:
         processed_df = pd.concat([X_processed.reset_index(drop=True), y], axis=1)
 
         return processed_df
+    
+        def transform_for_inference(self, X_raw: pd.DataFrame) -> pd.DataFrame:
+            """
+            Transform raw input features for inference.
+            This does NOT expect the target column.
+            """
+            if self.ohe is None or self.scaler is None:
+                raise ValueError("Preprocessor is not fitted / loaded.")
+
+            parts = []
+
+            if self.numerical_cols:
+                num_data = self.scaler.transform(X_raw[self.numerical_cols])
+                num_df = pd.DataFrame(num_data, columns=self.numerical_cols)
+                parts.append(num_df)
+
+            if self.categorical_cols:
+                cat_data = self.ohe.transform(X_raw[self.categorical_cols])
+                cat_cols = self.ohe.get_feature_names_out(self.categorical_cols)
+                cat_df = pd.DataFrame(cat_data, columns=cat_cols)
+                parts.append(cat_df)
+
+            X_processed = pd.concat(parts, axis=1)
+            return X_processed
 
     def preprocess_data(self):
         """Pipeline entry point: load train/test, fit on train, transform both, save artifacts."""
